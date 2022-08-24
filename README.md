@@ -4,10 +4,10 @@ Brewfile of my used homebrew packages.
 
 ## Usage
 
-To update the brewfile run the `update` script:
+To update the brewfile run:
 
 ```sh
-sh update.sh
+brew bundle dump --force
 ```
 
 To install the packages of the brewfile run:
